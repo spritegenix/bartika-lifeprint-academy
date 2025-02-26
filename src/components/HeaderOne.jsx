@@ -124,8 +124,8 @@ const HeaderOne = () => {
       // ],
     },
     {
-      label: "Contact",
-      href: "/contact",
+      label: "Contact Us",
+      href: "/contact-us",
     },
   ];
 
@@ -143,32 +143,6 @@ const HeaderOne = () => {
                 </Link>
               </div>
               {/* Logo End  */}
-              {/* Select Start */}
-              <div className="d-sm-block d-none">
-                <div className="header-select border border-neutral-30 bg-main-25 rounded-pill position-relative">
-                  <span className="select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex">
-                    <i className="ph-bold ph-squares-four" />
-                  </span>
-                  <select
-                    className="js-example-basic-single border-0"
-                    name="state"
-                    defaultValue="categories"
-                  >
-                    <option value={"Categories"}>Categories</option>
-                    <option value={"Design"}>Design</option>
-                    <option value={"Development"}>Development</option>
-                    <option value={"Architecture"}>Architecture</option>
-                    <option value={"Life Style"}>Life Style</option>
-                    <option value={"Data Science"}>Data Science</option>
-                    <option value={"Marketing"}>Marketing</option>
-                    <option value={"Music"}>Music</option>
-                    <option value={"Typography"}>Typography</option>
-                    <option value={"Finance"}>Finance</option>
-                    <option value={"Motivation"}>Motivation</option>
-                  </select>
-                </div>
-              </div>
-              {/* Select End */}
               {/* Menu Start  */}
               <div className="header-menu d-lg-block d-none">
                 <ul className="nav-menu flex-align">
@@ -218,27 +192,13 @@ const HeaderOne = () => {
             </div>
             {/* Header Right start */}
             <div className="header-right flex-align">
-              <form
-                action="#"
-                className="search-form position-relative d-xl-block d-none"
-              >
-                <input
-                  type="text"
-                  className="common-input rounded-pill bg-main-25 pe-48 border-neutral-30"
-                  placeholder="Search..."
-                />
-                <button
-                  type="submit"
-                  className="w-36 h-36 bg-main-600 hover-bg-main-700 rounded-circle flex-center text-md text-white position-absolute top-50 translate-middle-y inset-inline-end-0 me-8"
-                >
-                  <i className="ph-bold ph-magnifying-glass" />
-                </button>
-              </form>
               <Link
-                href="sign-in"
-                className="info-action w-52 h-52 bg-main-25 hover-bg-main-600 border border-neutral-30 rounded-circle flex-center text-2xl text-neutral-500 hover-text-white hover-border-main-600"
+                href="tel:+91 6266044430"
+                className="btn btn-main rounded-pill flex-align gap-8"
+                data-aos="fade-right"
               >
-                <i className="ph ph-user-circle" />
+                <i className="ph ph-phone-call text-24" />
+                Call Now
               </Link>
               <button
                 type="button"
@@ -306,29 +266,6 @@ const HeaderOne = () => {
                 )
               )}
             </ul>
-            <div className="d-sm-none d-block mt-24">
-              <div className="header-select border border-neutral-30 bg-main-25 rounded-pill position-relative">
-                <span className="select-icon position-absolute top-50 translate-middle-y inset-inline-start-0 z-1 ms-lg-4 ms-12 text-xl pointer-event-none d-flex">
-                  <i className="ph-bold ph-squares-four" />
-                </span>
-                <select
-                  className="js-example-basic-single border-0"
-                  name="state"
-                >
-                  <option value={"Categories"}>Categories</option>
-                  <option value={"Design"}>Design</option>
-                  <option value={"Development"}>Development</option>
-                  <option value={"Architecture"}>Architecture</option>
-                  <option value={"Life Style"}>Life Style</option>
-                  <option value={"Data Science"}>Data Science</option>
-                  <option value={"Marketing"}>Marketing</option>
-                  <option value={"Music"}>Music</option>
-                  <option value={"Typography"}>Typography</option>
-                  <option value={"Finance"}>Finance</option>
-                  <option value={"Motivation"}>Motivation</option>
-                </select>
-              </div>
-            </div>
           </div>
         </div>
       </div>
