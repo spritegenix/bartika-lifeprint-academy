@@ -29,7 +29,7 @@ const page = (blogArray) => {
       <Breadcrumb title={"Blogs"} />
 
       {/* BlogGridInner */}
-      <BlogGridInner blogArr />
+      <BlogGridInner blogArray={blogArray} />
 
       {/* CertificateOne */}
       <CertificateOne />
