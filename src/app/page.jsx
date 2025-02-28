@@ -31,8 +31,7 @@ const page = () => {
       {/* InfoSectionOne */}
       <InfoSectionOne />
 
-      {/* CategoryOne */}
-      <CategoryOne />
+      {/* <CategoryOne /> */}
 
       {/* AboutTwo */}
       <AboutTwo />
