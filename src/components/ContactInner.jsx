@@ -12,7 +12,8 @@ const ContactInner = () => {
             </div>
             <h2 className="mb-24">Let us help you</h2>
             <p className="">
-            Explore our transformative programs designed to help you step into your true potential.
+              Explore our transformative programs designed to help you step into
+              your true potential.
             </p>
           </div>
           <div className="row gy-4">
@@ -24,7 +25,7 @@ const ContactInner = () => {
                 <div className="flex-grow-1">
                   <h4 className="mb-12">Main Office</h4>
                   <p className="text-neutral-500">
-                  502, Canal Kinship Salaiya, Bhopal MP
+                    502, Canal Kinship Salaiya, Bhopal MP
                   </p>
                   <a
                     href="#"
@@ -42,7 +43,10 @@ const ContactInner = () => {
                 </span>
                 <div className="flex-grow-1">
                   <h4 className="mb-12">Email Address</h4>
-                  <p className="text-neutral-500">info@.bartikalifeacademy.com</p>
+                  <p className="text-neutral-500">
+                    info@.bartikalifeacademy.com
+                  </p>
+                  <br />
                   <a
                     href="mailto:infoexample@gmail.com"
                     className="text-main-600 fw-semibold text-decoration-underline mt-16"
@@ -60,6 +64,7 @@ const ContactInner = () => {
                 <div className="flex-grow-1">
                   <h4 className="mb-12">Phone Number</h4>
                   <p className="text-neutral-500">+91 6266044430</p>
+                  <br />
                   <a
                     href="tel:+91 6266044430"
                     className="text-main-600 fw-semibold text-decoration-underline mt-16"
