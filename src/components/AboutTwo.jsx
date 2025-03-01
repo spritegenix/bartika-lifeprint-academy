@@ -1,4 +1,3 @@
-
 const AboutTwo = () => {
   return (
     <section className="about-two py-120 position-relative z-1 bg-main-25">
@@ -21,7 +20,7 @@ const AboutTwo = () => {
                   <img
                     src="assets/images/icons/bulb-icon.png"
                     className=""
-                    alt=""
+                    alt="Bartika Lifeprint Academy"
                   />
                 </span>
                 <div className="offer-message  two px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16 animation-upDown">

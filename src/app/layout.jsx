@@ -10,8 +10,7 @@ export const metadata = {
     default: "Bartika Lifeprint Academy",
     template: "%s | Bartika Lifeprint Academy",
   },
-  description:
-    "Bartika Lifeprint Academy- “from self-doubt to self-mastery”",
+  description: "Bartika Lifeprint Academy- “From self-doubt to self-mastery”",
 };
 
 export default function RootLayout({ children }) {

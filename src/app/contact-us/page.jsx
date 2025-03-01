@@ -1,12 +1,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import CertificateOne from "@/components/CertificateOne";
 import ContactInner from "@/components/ContactInner";
-import FooterOne from "@/components/FooterOne";
+import FooterTwo from "@/components/FooterTwo";
 import HeaderOne from "@/components/HeaderOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "EduAll - LMS, Tutors, Education & Online Course NEXT JS Template",
+  title: "Contact Us",
 };
 
 const page = () => {
@@ -28,7 +28,7 @@ const page = () => {
       <CertificateOne />
 
       {/* FooterOne */}
-      <FooterOne />
+      <FooterTwo />
     </>
   );
 };

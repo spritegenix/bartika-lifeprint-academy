@@ -1,16 +1,17 @@
-import AboutTwo from "@/components/AboutTwo";
+import AboutOne from "@/components/AboutOne";
+import BrandTwo from "@/components/BrandTwo";
 import Breadcrumb from "@/components/Breadcrumb";
-import CertificateTwo from "@/components/CertificateTwo";
-import FeaturesTwo from "@/components/FeaturesTwo";
-import FooterThree from "@/components/FooterThree";
+import CertificateOne from "@/components/CertificateOne";
+import ChooseUsOne from "@/components/ChooseUsOne";
+import CounterOne from "@/components/CounterOne";
+import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
-import InfoSectionOne from "@/components/InfoSectionOne";
-import JoinCommunityOne from "@/components/JoinCommunityOne";
-import TestimonialsTwo from "@/components/TestimonialsTwo";
+import InstructorOne from "@/components/InstructorOne";
+import TestimonialsOne from "@/components/TestimonialsOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "EduAll - LMS, Tutors, Education & Online Course NEXT JS Template",
+  title: "About Us",
 };
 
 const page = () => {
@@ -23,28 +24,31 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"About Us 02"} />
+      <Breadcrumb title={"About Us"} />
 
-      {/* FeaturesTwo */}
-      <FeaturesTwo />
+      {/* AboutOne */}
+      <AboutOne />
 
-      {/* InfoSectionOne */}
-      <InfoSectionOne />
+      {/* InstructorOne */}
+      <InstructorOne />
 
-      {/* AboutTwo */}
-      <AboutTwo />
+      {/* ChooseUsOne */}
+      <ChooseUsOne />
 
-      {/* CertificateTwo */}
-      <CertificateTwo />
+      {/* CounterOne */}
+      <CounterOne />
 
-      {/* JoinCommunityOne */}
-      <JoinCommunityOne />
+      {/* TestimonialsOne */}
+      <TestimonialsOne />
 
-      {/* TestimonialsTwo */}
-      <TestimonialsTwo />
+      {/* BrandTwo */}
+      <BrandTwo />
 
-      {/* FooterThree */}
-      <FooterThree />
+      {/* CertificateOne */}
+      <CertificateOne />
+
+      {/* FooterOne */}
+      <FooterOne />
     </>
   );
 };

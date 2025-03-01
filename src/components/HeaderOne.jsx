@@ -72,7 +72,7 @@ const HeaderOne = () => {
     {
       label: "About Us",
       links: [
-        { href: "/about", label: "About" },
+        { href: "/about-us", label: "About" },
         { href: "/about-two", label: "About Two" },
         { href: "/about-three", label: "About Three" },
         { href: "/about-four", label: "About Four" },
