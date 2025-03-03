@@ -1,3 +1,4 @@
+import { courses } from "@/app/courses/data";
 import Link from "next/link";
 
 const FooterTwo = () => {
@@ -71,14 +72,16 @@ const FooterTwo = () => {
                   Courses
                 </h4>
                 <ul className="footer-menu">
-                  <li className="mb-16">
-                    <Link
-                      href="/courses"
-                      className="text-white hover-text-main-600 hover-text-decoration-underline"
-                    >
-                      Course 1
-                    </Link>
-                  </li>
+                  {courses.map((course) => (
+                    <li className="mb-16">
+                      <Link
+                        href={course.slug ? `/courses/${course.slug}` : "#"}
+                        className="text-white hover-text-main-600 hover-text-decoration-underline"
+                      >
+                        {course.title.split(`–`)[0]}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
