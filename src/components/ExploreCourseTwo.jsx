@@ -84,12 +84,12 @@ const ExploreCourseTwo = () => {
               <li className="nav-item" role="presentation">
                 <button
                   className="nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8"
-                  id="pills-level2-tab"
+                  id="pills-level3-tab"
                   data-bs-toggle="pill"
-                  data-bs-target="#pills-level2"
+                  data-bs-target="#pills-level3"
                   type="button"
                   role="tab"
-                  aria-controls="pills-level2"
+                  aria-controls="pills-level3"
                   aria-selected="false"
                 >
                   <i className="text-xl d-flex ph-bold ph-magic-wand" />
@@ -99,12 +99,12 @@ const ExploreCourseTwo = () => {
               <li className="nav-item" role="presentation">
                 <button
                   className="nav-link rounded-pill bg-main-25 text-md fw-medium text-neutral-500 flex-center w-100 gap-8"
-                  id="pills-level3-tab"
+                  id="pills-level4-tab"
                   data-bs-toggle="pill"
-                  data-bs-target="#pills-level3"
+                  data-bs-target="#pills-level4"
                   type="button"
                   role="tab"
-                  aria-controls="pills-level3"
+                  aria-controls="pills-level4"
                   aria-selected="false"
                 >
                   <i className="text-xl d-flex ph-bold ph-magic-wand" />
@@ -115,7 +115,7 @@ const ExploreCourseTwo = () => {
           </div>
         </div>
         <div className="tab-content" id="pills-tabContent">
-          {/* all courses */}
+          {/* all  */}
           <div
             className="tab-pane fade show active"
             id="pills-all"
@@ -182,9 +182,9 @@ const ExploreCourseTwo = () => {
                 ))}
             </div>
           </div>
-          {/* Level 1  */}
+          {/* level 1  */}
           <div
-            className="tab-pane fade show active"
+            className="tab-pane fade"
             id="pills-level1"
             role="tabpanel"
             aria-labelledby="pills-level1-tab"
@@ -248,10 +248,19 @@ const ExploreCourseTwo = () => {
                   </div>
                 ))}
             </div>
+            <div className="text-center">
+              <Link
+                href="/courses"
+                className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
+              >
+                See All Courses
+                <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
+              </Link>
+            </div>
           </div>
-          {/* Level 2  */}
+          {/* level 2  */}
           <div
-            className="tab-pane fade show active"
+            className="tab-pane fade"
             id="pills-level2"
             role="tabpanel"
             aria-labelledby="pills-level2-tab"
@@ -316,9 +325,9 @@ const ExploreCourseTwo = () => {
                 ))}
             </div>
           </div>
-          {/* Level 3  */}
+          {/* level 3  */}
           <div
-            className="tab-pane fade show active"
+            className="tab-pane fade"
             id="pills-level3"
             role="tabpanel"
             aria-labelledby="pills-level3-tab"
@@ -383,9 +392,9 @@ const ExploreCourseTwo = () => {
                 ))}
             </div>
           </div>
-          {/* Level 4  */}
+          {/* level 4  */}
           <div
-            className="tab-pane fade show active"
+            className="tab-pane fade"
             id="pills-level4"
             role="tabpanel"
             aria-labelledby="pills-level4-tab"
@@ -450,15 +459,15 @@ const ExploreCourseTwo = () => {
                 ))}
             </div>
           </div>
-          <div className="text-center">
-            <Link
-              href="/courses"
-              className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
-            >
-              See All Courses
-              <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-            </Link>
-          </div>
+        </div>
+        <div className="text-center">
+          <Link
+            href="/course"
+            className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
+          >
+            See All Courses
+            <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
+          </Link>
         </div>
       </div>
     </section>
