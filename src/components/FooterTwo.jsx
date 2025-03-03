@@ -52,10 +52,10 @@ const FooterTwo = () => {
                   </li>
                   <li className="mb-0">
                     <Link
-                      href="/blog"
+                      href="/contact-us"
                       className="text-white hover-text-main-600 hover-text-decoration-underline"
                     >
-                      Blogs
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
@@ -113,7 +113,7 @@ const FooterTwo = () => {
                       href="/mailto:eduAll@gmail.com"
                       className="text-white d-block hover-text-main-600 mb-0"
                     >
-                      info@bartikalifeprintacademy.com
+                      info@bartikalife.com
                     </Link>
                   </div>
                 </div>
