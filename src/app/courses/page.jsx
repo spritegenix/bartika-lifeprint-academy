@@ -7,7 +7,7 @@ import HeaderOne from "@/components/HeaderOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "EduAll - LMS, Tutors, Education & Online Course NEXT JS Template",
+  title: "Courses",
 };
 
 const page = () => {
