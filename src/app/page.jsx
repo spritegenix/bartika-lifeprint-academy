@@ -12,7 +12,7 @@ import TestimonialsTwo from "@/components/TestimonialsTwo";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
-  title: "Home",
+  title: "Home | Bartika Lifeprint Academy",
 };
 
 const page = () => {
