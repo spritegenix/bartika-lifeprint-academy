@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import CertificateOne from "@/components/CertificateOne";
 import CourseGridView from "@/components/CourseGridView";
 import FooterOne from "@/components/FooterOne";
+import FooterTwo from "@/components/FooterTwo";
 import HeaderOne from "@/components/HeaderOne";
 import Animation from "@/helper/Animation";
 
@@ -27,8 +28,8 @@ const page = () => {
       {/* CertificateOne */}
       <CertificateOne />
 
-      {/* FooterOne */}
-      <FooterOne />
+      {/* FooterTwo */}
+      <FooterTwo />
     </>
   );
 };

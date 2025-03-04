@@ -4,35 +4,35 @@ import Slider from "react-slick";
 
 const data = [
   {
-    img: "/images/testimonials/testimonials-1.jpg",
-    name: "Aarav Sharma",
-    designation: "Software Engineer",
+    img: "/assets/images/photos/woman.png",
+    name: "iBeam Academy",
+    designation: "Academy",
     quote:
-      "The courses here have been a game-changer for me. The hands-on approach and expert guidance helped me excel in my field. Highly recommend!",
+      "Bartika’s insightful decoding of the Genetic Brain profiling is always a jaw dropping moment .She gets to the core of the challenge faced by a client and suggests corrections in behavior in the calmest and surest way . The confidence  in her tone and clarity in expression is a treat . As a mentee , with expansive exoerience as a life coach myself , she furthers my knowledge of GBP and decoding comprehensively . A big salute to her humility .",
     rating: 5,
   },
   {
-    img: "/images/testimonials/testimonials-2.jpg",
-    name: "Priya Verma",
-    designation: "Digital Marketer",
+    img: "/assets/images/photos/woman.png",
+    name: "Rachel Chithra",
+    designation: "User",
     quote:
-      "Amazing learning experience! The courses are well-structured, and the instructors are highly knowledgeable.",
+      "Mam Interpreted my hubby's GBP report ...we are so happy to hear the way she explained made a lot of sense to us...mam is the best...my hubby being logical also said yes mam it's perfect.",
     rating: 5,
   },
   {
-    img: "/images/testimonials/testimonials-3.jpg",
-    name: "Neha Kapoor",
-    designation: "Entrepreneur",
+    img: "/assets/images/photos/woman.png",
+    name: "Bhoomika Sharma",
+    designation: "User",
     quote:
-      "Bartika Lifeprint Academy helped me rediscover my strengths and build confidence. The fingerprint decoding sessions were eye-opening!",
+      "I have done my family's brain profiling with Bartika Madam. I must say that she is the master of her profession. I got in-depth analysis of personality of all my family members. This will help in a great extent to make so many decisions. Recommended.",
     rating: 5,
   },
   {
-    img: "/images/testimonials/testimonials-4.jpg",
-    name: "Rohan Malhotra",
+    img: "/assets/images/photos/woman.png",
+    name: "Tejvir Sadana",
     designation: "Business Consultant",
     quote:
-      "I was skeptical at first, but the insights I gained about my personality and decision-making style were truly life-changing.",
+      "Recently, Experienced the Services by Bartika Madam. Her Understanding and Knowledge of Fingerprints is Highly Appreciated for she could help us arrive at the findings which opened up many possibilities.",
     rating: 5,
   },
 ];
@@ -104,11 +104,11 @@ const TestimonialsTwo = () => {
                     )
                 )}
               </ul>
-              <p className="text-neutral-700 text-xl">"{quote}"</p>
+              <p className="text-neutral-700 text-xl text-line-4">"{quote}"</p>
               <div className="flex-between gap-24 flex-wrap pt-28 mt-28 border-top border-neutral-50 mt-28 border-dashed border-0">
                 <div className="flex-align gap-24 ">
                   <img
-                    src="assets/images/thumbs/testi-img1.png"
+                    src={img}
                     alt=""
                     className="w-60 h-60 object-fit-cover rounded-circle"
                   />
@@ -117,9 +117,6 @@ const TestimonialsTwo = () => {
                     <span className="text-neutral-700">{designation}</span>
                   </div>
                 </div>
-                <span className="quate text-48 d-flex opacity-25">
-                  <img src={img} alt="" />
-                </span>
               </div>
             </div>
           ))}

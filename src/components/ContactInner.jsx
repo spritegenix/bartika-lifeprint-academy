@@ -27,7 +27,7 @@ const ContactInner = () => {
                 <div className="flex-grow-1">
                   <h4 className="mb-12">Main Office</h4>
                   <p className="text-neutral-500">
-                    502, Canal Kinship Salaiya, Bhopal MP
+                    502, Canal Kinship Salaiya, Bhopal, MP
                   </p>
                   <a
                     href="#"

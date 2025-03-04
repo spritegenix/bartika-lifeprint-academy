@@ -129,7 +129,7 @@ const FooterTwo = () => {
                       502, Canal Kinship
                     </span>
                     <span className="text-white d-block mb-0">
-                      Salaiya, Bhopal MP
+                      Salaiya, Bhopal, MP
                     </span>
                   </div>
                 </div>
