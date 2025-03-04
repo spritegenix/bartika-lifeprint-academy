@@ -3,7 +3,7 @@ export const courses = [
     id: "1",
     category: ["all", "level-1"],
     slug: "find-your-spark-level-1",
-    image: "/assets/images/thumbs/course-details-img.png",
+    image: "/assets/images/photos/1.png",
     title: "Find Your SPARK (Level 1) – Awaken & Align Your True Self",
     metaDescription:
       "Discover the power within you! 'Find Your SPARK (Level 1)' is designed to spark self-awareness and inspire action. Unlock your true potential today!",
@@ -161,7 +161,7 @@ export const courses = [
     id: "2",
     category: ["all", "level-2"],
     slug: "shine-your-light-level-2",
-    image: "/assets/images/thumbs/course-details-img.png",
+    image: "/assets/images/photos/2.png",
     title: "Shine Your LIGHT (Level 2) – Step into Confidence & Embrace Change",
     metaDescription:
       "Build momentum & confidence in your transformation! 'Shine Your LIGHT (Level 2)' helps you recognize your uniqueness & step into self-discovery.",
@@ -342,7 +342,7 @@ export const courses = [
     id: "3",
     slug: "taper-to-torch-level-3",
     category: ["all", "level-3"],
-    image: "/assets/images/thumbs/course-details-img.png",
+    image: "/assets/images/photos/3.png",
     title:
       "Taper to TORCH (Level 3) – Create Lasting Change with Structured Coaching",
     metaDescription:
@@ -512,7 +512,7 @@ export const courses = [
     id: "4",
     category: ["all", "level-4"],
     slug: "fire-the-flame-level-4",
-    image: "/assets/images/thumbs/course-details-img.png",
+    image: "/assets/images/photos/4.png",
     title:
       "Fire the FLAME (Level 4) – Achieve Personal Mastery & Long-Term Transformation",
     metaDescription:

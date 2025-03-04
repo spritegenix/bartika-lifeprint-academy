@@ -1,3 +1,5 @@
+import { courses } from "@/app/courses/data";
+
 const JoinCommunityOne = () => {
   return (
     <section className="join-community">
@@ -55,24 +57,11 @@ const JoinCommunityOne = () => {
                         <option value={""} disabled selected>
                           Select a Course
                         </option>
-                        <option value="fingerprint-decoding">
-                          Fingerprint Personality Decoding
-                        </option>
-                        <option value="mindfulness-training">
-                          Mindfulness & Emotional Resilience
-                        </option>
-                        <option value="self-mastery-coaching">
-                          Self-Mastery Coaching
-                        </option>
-                        <option value="financial-empowerment">
-                          Financial Empowerment Sessions
-                        </option>
-                        <option value="communication-coaching">
-                          Effective Communication Coaching
-                        </option>
-                        <option value="group-workshops">
-                          Workshops & Group Programs
-                        </option>
+                        {courses.map((course) => (
+                          <option key={course.slug} value={course.slug}>
+                            {course.title}
+                          </option>
+                        ))}
                       </select>
 
                       <span className="bg-white text-neutral-200 text-2xl flex-center w-48 h-48 rounded-circle border border-main-25 border-4 position-absolute inset-inline-start-0 top-50 translate-middle-y">
@@ -98,7 +87,7 @@ const JoinCommunityOne = () => {
               <div className="col-lg-6">
                 <div className="join-community__thumb text-end position-relative">
                   <img
-                    src="assets/images/thumbs/join-community-img.png"
+                    src="assets/images/photos/Untitled  (526 x 526 px) (1).png"
                     alt=""
                     className="wow bounceIn"
                     data-tilt=""
@@ -112,7 +101,7 @@ const JoinCommunityOne = () => {
                       <i className="ph-bold ph-users" />
                     </span>
                     <div className="text-start">
-                      <h6 className="mb-4">56K</h6>
+                      <h6 className="mb-4">2K</h6>
                       <span className="">All Students</span>
                     </div>
                   </div>

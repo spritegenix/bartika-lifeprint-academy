@@ -7,7 +7,7 @@ const AboutTwo = () => {
             <div className="col-xl-6 pe-xl-5">
               <div className="about-two__thumb position-relative">
                 <img
-                  src="assets/images/thumbs/about-two-img.png"
+                  src="assets/images/photos/Untitled   (526 x 665 px).png"
                   className="rounded-16 cover-img wow bounceIn"
                   alt="Bartika Lifeprint Academy"
                   data-tilt=""

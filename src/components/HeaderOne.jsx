@@ -138,7 +138,7 @@ const HeaderOne = () => {
       <header className={`header ${scroll ? "fixed-header" : ""}`}>
         <div className="container container--xl">
           <nav className="header-inner flex-between gap-8">
-            <div className="header-content-wrapper flex-align flex-grow-1">
+            <div className="header-content-wrapper flex-align">
               {/* Logo Start */}
               <div className="logo">
                 <Link href="/" className="link">
@@ -146,53 +146,53 @@ const HeaderOne = () => {
                 </Link>
               </div>
               {/* Logo End  */}
-              {/* Menu Start  */}
-              <div className="header-menu d-lg-block d-none">
-                <ul className="nav-menu flex-align">
-                  {menuItems.map((item, index) =>
-                    item.links ? (
-                      <li
-                        key={`menu-item-${index}`}
-                        className="nav-menu__item has-submenu"
-                      >
-                        <Link href="#" className="nav-menu__link">
-                          {item.label}
-                        </Link>
-                        <ul className={`nav-submenu scroll-sm`}>
-                          {item.links.map((link, linkIndex) => (
-                            <li
-                              key={`submenu-item-${linkIndex}`}
-                              className={`nav-submenu__item ${
-                                pathname == link.href && "activePage"
-                              }`}
-                            >
-                              <Link
-                                href={link.href}
-                                className="nav-submenu__link hover-bg-neutral-30"
-                              >
-                                {link.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </li>
-                    ) : (
-                      <li
-                        key={`menu-contact-${index}`}
-                        className={`nav-menu__item ${
-                          pathname == item.href && "activePage"
-                        }`}
-                      >
-                        <Link href={item.href} className="nav-menu__link">
-                          {item.label}
-                        </Link>
-                      </li>
-                    )
-                  )}
-                </ul>
-              </div>
-              {/* Menu End  */}
             </div>
+            {/* Menu Start  */}
+            <div className="header-menu d-lg-block d-none">
+              <ul className="nav-menu flex-align">
+                {menuItems.map((item, index) =>
+                  item.links ? (
+                    <li
+                      key={`menu-item-${index}`}
+                      className="nav-menu__item has-submenu"
+                    >
+                      <Link href="#" className="nav-menu__link">
+                        {item.label}
+                      </Link>
+                      <ul className={`nav-submenu scroll-sm`}>
+                        {item.links.map((link, linkIndex) => (
+                          <li
+                            key={`submenu-item-${linkIndex}`}
+                            className={`nav-submenu__item ${
+                              pathname == link.href && "activePage"
+                            }`}
+                          >
+                            <Link
+                              href={link.href}
+                              className="nav-submenu__link hover-bg-neutral-30"
+                            >
+                              {link.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ) : (
+                    <li
+                      key={`menu-contact-${index}`}
+                      className={`nav-menu__item ${
+                        pathname == item.href && "activePage"
+                      }`}
+                    >
+                      <Link href={item.href} className="nav-menu__link">
+                        {item.label}
+                      </Link>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+            {/* Menu End  */}
             {/* Header Right start */}
             <div className="header-right flex-align">
               <Link
