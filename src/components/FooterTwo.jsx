@@ -174,7 +174,7 @@ const FooterTwo = () => {
               <div className="footer-item__logo mb-0" data-aos="zoom-in-right">
                 <Link href="/">
                   {" "}
-                  <img src="assets/images/logo/logo-white.png" alt="" />
+                  <img src="/assets/images/logo/logo-white.png" alt="" />
                 </Link>
               </div>
               <p
@@ -216,7 +216,7 @@ const FooterTwo = () => {
                     href="https://www.linkedin.com/in/bartika-sharma-06aab01b4"
                     className="text-white text-2xl hover-text-main-two-600"
                   >
-                    <i className="ph-bold ph-instagram-logo" />
+                    <i className="ph-bold ph-linkedin-logo" />
                   </Link>
                 </li>
               </ul>

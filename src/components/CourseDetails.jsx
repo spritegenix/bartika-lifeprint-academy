@@ -128,7 +128,7 @@ const CourseDetails = ({ data }) => {
                       <i className="ph-bold ph-tag" />
                     </span>
                     <span className="">From</span>
-                    <h2 className="mb-0">$99.99</h2>
+                    <h2 className="mb-0">₹{data.coursePrice}</h2>
                   </div>
                   <button
                     type="button"
@@ -150,7 +150,7 @@ const CourseDetails = ({ data }) => {
                     </span>
                   </div>
                   <span className="text-lg fw-medium text-neutral-700">
-                    Web Development
+                    {data.title.split(`(`)[0]}
                   </span>
                 </div>
                 <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
@@ -164,7 +164,7 @@ const CourseDetails = ({ data }) => {
                     </span>
                   </div>
                   <span className="text-lg fw-medium text-neutral-700">
-                    16 Videos
+                    {data.curriculum.length * 2} Videos
                   </span>
                 </div>
                 <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
@@ -177,7 +177,7 @@ const CourseDetails = ({ data }) => {
                     </span>
                   </div>
                   <span className="text-lg fw-medium text-neutral-700">
-                    English
+                    English, Hindi
                   </span>
                 </div>
                 <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
@@ -191,61 +191,7 @@ const CourseDetails = ({ data }) => {
                     </span>
                   </div>
                   <span className="text-lg fw-medium text-neutral-700">
-                    Beginner
-                  </span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
-                      <i className="ph ph-star" />{" "}
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Reviews
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">
-                    4.7(5.5k)
-                  </span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
-                      <i className="ph ph-question" />
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Quizzes
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">08</span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
-                      <i className="ph ph-clock" />{" "}
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Duration
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">
-                    7 Weeks
-                  </span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
-                      <i className="ph ph-users" />{" "}
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Students
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">
-                    2.5k
+                    Level {data.levelNo}
                   </span>
                 </div>
                 <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
@@ -266,34 +212,6 @@ const CourseDetails = ({ data }) => {
                   <div className="flex-align gap-12">
                     <span className="text-neutral-700 text-2xl d-flex">
                       {" "}
-                      <i className="ph ph-seal-percent" />
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Pass Percentage
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">
-                    88%
-                  </span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
-                      <i className="ph ph-calendar-dot" />
-                    </span>
-                    <span className="text-neutral-700 text-lg fw-normal">
-                      Deadline
-                    </span>
-                  </div>
-                  <span className="text-lg fw-medium text-neutral-700">
-                    01 Jun, 2024
-                  </span>
-                </div>
-                <div className="border-bottom border-neutral-40 pb-24 mb-24 flex-between flex-wrap gap-16">
-                  <div className="flex-align gap-12">
-                    <span className="text-neutral-700 text-2xl d-flex">
-                      {" "}
                       <i className="ph ph-user-circle" />
                     </span>
                     <span className="text-neutral-700 text-lg fw-normal">
@@ -301,23 +219,10 @@ const CourseDetails = ({ data }) => {
                     </span>
                   </div>
                   <span className="text-lg fw-medium text-neutral-700">
-                    Denial Lie
+                  Bartika Sharma
                   </span>
                 </div>
-                <Link
-                  href="/contact"
-                  className="btn btn-main rounded-pill flex-center gap-8 mt-40"
-                >
-                  See All Reviews
-                  <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
-                </Link>
                 <div className="mt-24 flex-center gap-24">
-                  <button
-                    type="button"
-                    className="w-44 h-44 flex-center bg-white rounded-circle text-main-600 text-lg hover-text-white hover-bg-main-600 transition-1"
-                  >
-                    <i className="ph-bold ph-shopping-cart-simple" />
-                  </button>
                   <div className="dropdown flex-shrink-0">
                     <button
                       className="w-44 h-44 flex-center bg-white rounded-circle text-main-600 text-lg hover-text-white hover-bg-main-600 transition-1"

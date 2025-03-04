@@ -5,6 +5,8 @@ export const courses = [
     slug: "find-your-spark-level-1",
     image: "/assets/images/photos/1.png",
     title: "Find Your SPARK (Level 1) – Awaken & Align Your True Self",
+    levelNo: "1",
+    coursePrice: "4,999",
     metaDescription:
       "Discover the power within you! 'Find Your SPARK (Level 1)' is designed to spark self-awareness and inspire action. Unlock your true potential today!",
     overview: {
@@ -163,6 +165,8 @@ export const courses = [
     slug: "shine-your-light-level-2",
     image: "/assets/images/photos/2.png",
     title: "Shine Your LIGHT (Level 2) – Step into Confidence & Embrace Change",
+    coursePrice: "19,999",
+    levelNo: "2",
     metaDescription:
       "Build momentum & confidence in your transformation! 'Shine Your LIGHT (Level 2)' helps you recognize your uniqueness & step into self-discovery.",
     overview: {
@@ -345,6 +349,8 @@ export const courses = [
     image: "/assets/images/photos/3.png",
     title:
       "Taper to TORCH (Level 3) – Create Lasting Change with Structured Coaching",
+      levelNo: "3",
+    coursePrice: "69,999",
     metaDescription:
       "Achieve lasting transformation! 'Taper to TORCH (Level 3)' aligns mindset, habits & actions to help you create sustainable personal growth.",
     overview: {
@@ -515,6 +521,8 @@ export const courses = [
     image: "/assets/images/photos/4.png",
     title:
       "Fire the FLAME (Level 4) – Achieve Personal Mastery & Long-Term Transformation",
+      levelNo: "4",
+    coursePrice: "1,49,999",
     metaDescription:
       "Step into full self-mastery with 'Fan the FLAME (Level 4).' Achieve lasting transformation, impact, and purpose-driven living.",
     overview: {

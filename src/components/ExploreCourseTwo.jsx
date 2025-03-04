@@ -462,7 +462,7 @@ const ExploreCourseTwo = () => {
         </div>
         <div className="text-center">
           <Link
-            href="/course"
+            href="/courses"
             className="btn btn-outline-main rounded-pill flex-align d-inline-flex gap-8 mt-40"
           >
             See All Courses
