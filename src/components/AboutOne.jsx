@@ -38,7 +38,7 @@ const AboutOne = () => {
                 <div className="row gy-4">
                   <div className="col-sm-6">
                     <img
-                      src="assets/images/thumbs/about-img1.png"
+                      src="assets/images/photos/Untitled design (6).png"
                       alt=""
                       className="rounded-12 w-100"
                       data-tilt=""
@@ -84,7 +84,7 @@ const AboutOne = () => {
                       </div>
                     </div>
                     <img
-                      src="assets/images/thumbs/about-img2.png"
+                      src="assets/images/photos/Untitled design (4).png"
                       alt=""
                       className="rounded-12 w-100"
                       data-tilt=""

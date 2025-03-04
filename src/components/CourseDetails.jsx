@@ -88,7 +88,7 @@ const CourseDetails = ({ data }) => {
             {/* Curriculum End */}
 
             {/* Call to action Start */}
-            <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12  mt-24">
+            {/* <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12  mt-24">
               <div className="p-20">
                 <h4 className="mb-16">Call to Action</h4>
                 <p className="text-neutral-700 mb-16">{data.cta.text}</p>
@@ -101,10 +101,10 @@ const CourseDetails = ({ data }) => {
                 </ul>
                 <p className="text-neutral-700">{data.cta.lastText}</p>
               </div>
-            </div>
+            </div> */}
             {/* Call to action End */}
             {/* Bonuses Start */}
-            <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12  mt-24">
+            {/* <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12  mt-24">
               <div className="p-20">
                 <h4 className="mb-16">Bonuses</h4>
                 <ul className="list-dotted d-flex flex-column gap-24 mb-16">
@@ -115,7 +115,7 @@ const CourseDetails = ({ data }) => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
             {/* Bonuses End */}
           </div>
           <div className="col-xl-4">
