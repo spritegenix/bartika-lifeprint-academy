@@ -14,11 +14,13 @@ const CourseGridView = () => {
                     href={course.slug ? `/courses/${course.slug}` : "#"}
                     className="w-100 h-100"
                   >
-                    <img
-                      src={course.image}
-                      alt="Course Image"
-                      className="course-item__img rounded-12 cover-img transition-2"
-                    />
+                    {course?.image && (
+                      <img
+                        src={course?.image}
+                        alt="Course Image"
+                        className="course-item__img rounded-12 cover-img transition-2"
+                      />
+                    )}
                   </Link>
                   <button
                     type="button"

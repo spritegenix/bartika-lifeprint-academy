@@ -89,7 +89,7 @@ const CertificateTwo = () => {
             <div className="col-lg-6">
               <div className="certificate-two__thumb">
                 <img
-                  src="assets/images/thumbs/certificate-two-img.png"
+                  src="assets/images/photos/certificate.jpg"
                   alt="Bartika Lifeprint Academy Certificate"
                   data-tilt=""
                   data-tilt-max={10}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const CourseDetails = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <section className="course-details py-120">
       <div className="container">
@@ -9,7 +9,9 @@ const CourseDetails = ({ data }) => {
           <div className="col-xl-8">
             {/* Details Content Start */}
             <div className="course-details__content border border-neutral-30 rounded-12 bg-main-25 p-12">
-              <img src={data.image} alt="" className="rounded-8 cover-img" />
+              {data?.image && (
+                <img src={data?.image} alt="" className="rounded-8 cover-img" />
+              )}
               <div className="p-20">
                 <h2 className="mt-24 mb-24">Course Overview</h2>
                 <p className="text-neutral-700">{data.overview.intro}</p>
