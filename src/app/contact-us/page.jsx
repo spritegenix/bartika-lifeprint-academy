@@ -19,7 +19,7 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb title={"Contact Us"} />
 
       {/* ContactInner */}
       <ContactInner />
