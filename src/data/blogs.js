@@ -3,7 +3,7 @@ export const blogs = [
     slug: "self-mastery-guide",
     author: "By Admin",
     title: "The Ultimate Guide to Self-Mastery: Unlocking Your True Potential",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b5.png",
     createdAt: "05-Mar-2025",
     content: `
                   <h2 class="mb-24">
@@ -59,7 +59,7 @@ export const blogs = [
     slug: "unlocking-your-true-potential",
     author: "By Admin",
     title: "Unlocking Your True Potential: The Power of Self-Discovery",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b6.png",
     createdAt: "05-Mar-2025",
     content: `
                     <h2 class="mb-24">
@@ -116,7 +116,7 @@ export const blogs = [
     author: "By Admin",
     title:
       "Embracing Confidence and Inner Strength: A Journey to Self-Empowerment",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b4.png",
     createdAt: "05-Mar-2025",
     content: `
                     <h2 class="mb-24">
@@ -172,7 +172,7 @@ export const blogs = [
     slug: "unlocking-your-true-potential",
     author: "By Admin",
     title: "Unlocking Your True Potential: A Journey to Self-Discovery",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b1.png",
     createdAt: "05-Mar-2025",
     content: `
                     <h2 class="mb-24">
@@ -228,7 +228,7 @@ export const blogs = [
     slug: "embracing-confidence-and-clarity",
     author: "By Admin",
     title: "Embracing Confidence and Clarity: A Path to Self-Empowerment",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b2.png",
     createdAt: "05-Mar-2025",
     content: `
                     <h2 class="mb-24">
@@ -284,7 +284,7 @@ export const blogs = [
     slug: "unlocking-inner-strength",
     author: "By Admin",
     title: "Unlocking Inner Strength: The Key to Resilience and Growth",
-    image: "/assets/images/thumbs/blog-two-img1.png",
+    image: "/assets/images/photos/b3.png",
     createdAt: "05-Mar-2025",
     content: `
                     <h2 class="mb-24">

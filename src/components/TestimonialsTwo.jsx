@@ -4,14 +4,6 @@ import Slider from "react-slick";
 
 const data = [
   {
-    img: "/assets/images/photos/woman.png",
-    name: "iBeam Academy",
-    designation: "Academy",
-    quote:
-      "Bartika’s insightful decoding of the Genetic Brain profiling is always a jaw dropping moment .She gets to the core of the challenge faced by a client and suggests corrections in behavior in the calmest and surest way . The confidence  in her tone and clarity in expression is a treat . As a mentee , with expansive exoerience as a life coach myself , she furthers my knowledge of GBP and decoding comprehensively . A big salute to her humility .",
-    rating: 5,
-  },
-  {
     img: "/assets/images/photos/rachel.jpg",
     name: "Rachel Chithra",
     designation: "User",
@@ -33,6 +25,30 @@ const data = [
     designation: "Hypnotherapist",
     quote:
       "Recently, Experienced the Services by Bartika Madam. Her Understanding and Knowledge of Fingerprints is Highly Appreciated for she could help us arrive at the findings which opened up many possibilities.",
+    rating: 5,
+  },
+  {
+    img: "/assets/images/photos/woman.png",
+    name: "iBeam Academy",
+    designation: "Academy",
+    quote:
+      "Bartika’s insightful decoding of the Genetic Brain profiling is always a jaw dropping moment .She gets to the core of the challenge faced by a client and suggests corrections in behavior in the calmest and surest way . The confidence  in her tone and clarity in expression is a treat . As a mentee , with expansive exoerience as a life coach myself , she furthers my knowledge of GBP and decoding comprehensively . A big salute to her humility .",
+    rating: 5,
+  },
+  {
+    img: "/assets/images/photos/Seema.jpg",
+    name: "Mrs. Seema and family",
+    designation: "User",
+    quote:
+      "Bartika Sharma is an exceptional fingerprint analysis reader whose keen eye for detail and accuracy has consistently proven invaluable. Her expertise and dedication have greatly contributed to solving complex cases. Brain's professional demeanor, meticulous approach, and unwavering commitment to excellence make her an indispensable asset as a counselor. Thank you for the detailed analysis and insights!",
+    rating: 5,
+  },
+  {
+    img: "/assets/images/photos/Sid P. Jani.jpg",
+    name: "Sid P. Jani",
+    designation: "User",
+    quote:
+      "I got my fingerprint analysis done by Bartika Sharma. I must say this: I was amazed like anything because the kind of picture it revealed about my inner strength and innate qualities was astounding. And not only that, but she recommended some important remedies for the areas in which I was lacking. I highly recommend Bartika Sharma to those who are seeking direction, clarity, and vision in life. I am glad that Bartika Sharma helped me at the time when I needed guidance. So, once again, Bartika Sharma I thank you for your service.",
     rating: 5,
   },
 ];
