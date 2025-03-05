@@ -37,7 +37,7 @@ const BlogGridInner = ({ blogArray }) => {
                         {blog?.title}
                       </Link>
                     </h4>
-                    <div className="flex-align gap-14 flex-wrap my-20">
+                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
                       <div className="flex-align gap-8">
                         <span className="text-neutral-500 text-2xl d-flex">
                           <i className="ph ph-user-circle" />
@@ -46,8 +46,6 @@ const BlogGridInner = ({ blogArray }) => {
                           {blog.author}
                         </span>
                       </div>
-                    </div>
-                    <div className="flex-between gap-8 pt-24 border-top border-neutral-50 mt-28 border-dashed border-0">
                       <Link
                         href={blog.slug ? `/blog/${blog?.slug}` : `#`}
                         className="flex-align gap-8 text-main-600 hover-text-decoration-underline transition-1 fw-semibold"

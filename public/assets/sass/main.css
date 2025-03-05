@@ -9246,12 +9246,15 @@ button:focus {
 
 /* Header Menu and Submenu Css Start */
 .nav-menu {
-  gap: 24px;
+  gap: 28px;
 }
 @media screen and (max-width: 1399px) {
   .nav-menu {
     gap: 20px;
   }
+}
+.nav-menu__item {
+  font-size: 1.2rem;
 }
 .nav-menu__item.activePage > a {
   color: hsl(var(--main));
@@ -9286,7 +9289,8 @@ button:focus {
 .has-submenu .nav-menu__link {
   padding-inline-end: 16px;
 }
-.has-submenu.active > a, .has-submenu.active > a::before {
+.has-submenu.active > a,
+.has-submenu.active > a::before {
   color: hsl(var(--main));
 }
 .has-submenu.active > a::before {

@@ -12,7 +12,7 @@ const data = [
     rating: 5,
   },
   {
-    img: "/assets/images/photos/woman.png",
+    img: "/assets/images/photos/rachel.jpg",
     name: "Rachel Chithra",
     designation: "User",
     quote:
@@ -20,17 +20,17 @@ const data = [
     rating: 5,
   },
   {
-    img: "/assets/images/photos/woman.png",
+    img: "/assets/images/photos/boomika.jpg",
     name: "Bhoomika Sharma",
-    designation: "User",
+    designation: "Deputy Manager",
     quote:
       "I have done my family's brain profiling with Bartika Madam. I must say that she is the master of her profession. I got in-depth analysis of personality of all my family members. This will help in a great extent to make so many decisions. Recommended.",
     rating: 5,
   },
   {
-    img: "/assets/images/photos/woman.png",
+    img: "/assets/images/photos/tejvir.jpg",
     name: "Tejvir Sadana",
-    designation: "Business Consultant",
+    designation: "Hypnotherapist",
     quote:
       "Recently, Experienced the Services by Bartika Madam. Her Understanding and Knowledge of Fingerprints is Highly Appreciated for she could help us arrive at the findings which opened up many possibilities.",
     rating: 5,

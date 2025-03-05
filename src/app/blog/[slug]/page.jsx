@@ -10,16 +10,16 @@ export const revalidate = 60 * 60;
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const blog = await blogs?.find((blog) => blog?.slug === slug);
+  const blog = blogs?.find((blog) => blog?.slug === slug);
   return {
     title: blog?.title || "Blog Details",
   };
 }
 
-const IndividualBlogPage = async ({ params }) => {
-  const { slug } = await params;
-  const blog = await blogs?.find((blog) => blog.slug === slug);
-  // console.log(blog);
+const IndividualBlogPage = ({ params }) => {
+  const { slug } = params;
+  const blog = blogs?.find((blog) => blog.slug === slug);
+  // console.log(slug);
   if (!blog) {
     notFound();
   }
@@ -32,10 +32,10 @@ const IndividualBlogPage = async ({ params }) => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Blog Details"} />
+      <Breadcrumb title={blog?.title} />
 
       {/* BlogDetailsInner */}
-      <BlogDetailsInner />
+      <BlogDetailsInner data={blog} slug={slug} />
 
       {/* CertificateOne */}
       <CertificateOne />
