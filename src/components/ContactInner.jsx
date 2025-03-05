@@ -1,4 +1,4 @@
-import { courses } from "@/app/courses/data";
+import ContactForm from './ContactForm';
 
 const ContactInner = () => {
   return (
@@ -97,7 +97,8 @@ const ContactInner = () => {
                     to you soon!
                   </p>
                 </div>
-                <form action="#">
+                <ContactForm />
+                {/* <form action="#">
                   <div
                     className="mb-24 position-relative"
                     data-aos="fade-up-left"
@@ -167,7 +168,7 @@ const ContactInner = () => {
                       <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
             </div>
             <div className="col-lg-6">
