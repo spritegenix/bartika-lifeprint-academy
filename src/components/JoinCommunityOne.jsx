@@ -1,4 +1,5 @@
-import { courses } from "@/app/courses/data";
+import { courses } from '@/app/courses/data';
+import ContactForm from './ContactForm';
 
 const JoinCommunityOne = () => {
   return (
@@ -19,7 +20,8 @@ const JoinCommunityOne = () => {
                       back to you soon!
                     </p>
                   </div>
-                  <form action="#">
+                  <ContactForm />
+                  {/* <form action="#">
                     <div
                       className="mb-24 position-relative"
                       data-aos="fade-up-left"
@@ -54,7 +56,7 @@ const JoinCommunityOne = () => {
                       data-aos-duration={800}
                     >
                       <select className="bg-white text-black border border-transparent focus:border-main-600 h-48 rounded-pill px-16 ps-60 outline-0 w-100 text-neutral-300">
-                        <option value={""} disabled selected>
+                        <option value={''} disabled selected>
                           Select a Course
                         </option>
                         {courses.map((course) => (
@@ -81,7 +83,7 @@ const JoinCommunityOne = () => {
                         <i className="ph-bold ph-arrow-up-right d-flex text-lg" />
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
               <div className="col-lg-6">
